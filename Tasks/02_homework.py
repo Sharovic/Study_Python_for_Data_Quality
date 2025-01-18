@@ -69,3 +69,7 @@ for k, v in consolidated_dic.items():
 # print(origin_list)  # Uncomment to inspect the original_list of dictionaries
 # print(consolidated_dic)  # Uncomment to inspect the consolidated dictionary
 print(common_dic)  # Print the final result
+
+"""
+https://github.com/Sharovic/Study_Python_for_Data_Quality/blob/main/Tasks/02_homework.py
+"""

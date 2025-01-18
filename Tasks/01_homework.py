@@ -58,3 +58,7 @@ except ZeroDivisionError:
 # display the averages of even and odd elements
 print("Average even numbers: ", even_average)
 print("Average odd numbers: ", odd_average)
+
+"""
+https://github.com/Sharovic/Study_Python_for_Data_Quality/blob/main/Tasks/01_homework.py
+"""
