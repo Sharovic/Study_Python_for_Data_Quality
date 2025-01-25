@@ -49,11 +49,11 @@ final_sentence = []
 text = re.sub(r"\s+", " ", incoming_string).strip().split(".")
 
 # Define pattern for replacing "iz" with "is"
-subsitute_char = r"\biz\b"
+substitute_char = r"\biz\b"
 
 # Process each sentence
 for sentence in text:
-    # Conver to lowercase and capitalize first letter
+    # Convert to lowercase and capitalize first letter
     edited_sentence = sentence.lower().strip().capitalize()
 
     # If sentence is not empty
@@ -65,9 +65,13 @@ for sentence in text:
         # Add 'period' at the end of sentence
         edited_sentence += "."
         # Replace 'iz' with 'is' in the sentence
-        edited_sentence = re.sub(subsitute_char, "is", edited_sentence)
+        edited_sentence = re.sub(substitute_char, "is", edited_sentence)
         # Print processed sentence
         print(edited_sentence)
 
 # Print list of last words from each sentences
 print(f"List of last words:\n {final_sentence}")
+
+"""
+https://github.com/Sharovic/Study_Python_for_Data_Quality/blob/main/Tasks/03_homework.py
+"""
