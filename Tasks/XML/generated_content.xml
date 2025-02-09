@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<content_feed>
+    <news/>
+    <advertisements>
+        <item>
+            <text>Павлик-Лупій представляє: новий смартфони. Передзамовлення зі знижкою 79%</text>
+            <expiration_date>12-02-2025</expiration_date>
+            <days_left>2</days_left>
+        </item>
+        <item>
+            <text>Святкові знижки на побутова техніка! Поспішайте, кількість обмежена</text>
+            <expiration_date>08-03-2025</expiration_date>
+            <days_left>26</days_left>
+        </item>
+        <item>
+            <text>Чорна п'ятниця триває! смартфони за півціни</text>
+            <expiration_date>22-02-2025</expiration_date>
+            <days_left>12</days_left>
+        </item>
+        <item>
+            <text>Святкові знижки на меблі! Поспішайте, кількість обмежена</text>
+            <expiration_date>08-03-2025</expiration_date>
+            <days_left>26</days_left>
+        </item>
+        <item>
+            <text>Розпродаж колекції літо! планшети за найкращими цінами року</text>
+            <expiration_date>28-02-2025</expiration_date>
+            <days_left>18</days_left>
+        </item>
+        <item>
+            <text>Грандіозний розпродаж! ноутбуки та інші товари від Карпа-Тесленко</text>
+            <expiration_date>24-02-2025</expiration_date>
+            <days_left>14</days_left>
+        </item>
+    </advertisements>
+    <jokes>
+        <item>
+            <text>Чому програмісти носять окуляри? Бо вони не можуть C#!</text>
+            <funny_rating>6</funny_rating>
+            <funny_rating_word>six</funny_rating_word>
+        </item>
+        <item>
+            <text>Чому Python такий популярний? Бо він не має фігурних дужок!</text>
+            <funny_rating>1</funny_rating>
+            <funny_rating_word>one</funny_rating_word>
+        </item>
+        <item>
+            <text>Як заспокоїти програміста? Все ок, це просто баг, а не фіча!</text>
+            <funny_rating>3</funny_rating>
+            <funny_rating_word>three</funny_rating_word>
+        </item>
+        <item>
+            <text>Як заспокоїти програміста? Все ок, це просто баг, а не фіча!</text>
+            <funny_rating>9</funny_rating>
+            <funny_rating_word>nine</funny_rating_word>
+        </item>
+    </jokes>
+</content_feed>

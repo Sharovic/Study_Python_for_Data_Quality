@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content_feed>
+    <news>
+        <item>
+            <text>Sample news text here</text>
+            <city>Kyiv</city>
+            <timestamp>01/02/2024 14.30</timestamp>
+        </item>
+    </news>
+    <advertisements>
+        <item>
+            <text>Sample ad text here</text>
+            <expiration_date>01/03/2024</expiration_date>
+            <days_left>30</days_left>
+        </item>
+    </advertisements>
+    <jokes>
+        <item>
+            <text>Sample joke text here</text>
+            <funny_rating>8</funny_rating>
+            <funny_rating_word>eight</funny_rating_word>
+        </item>
+    </jokes>
+</content_feed>
