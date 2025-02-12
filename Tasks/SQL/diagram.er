@@ -1,0 +1,25 @@
+erDiagram
+    news {
+        integer id PK
+        text content
+        text city 
+        datetime created_at
+        text content_hash UK "MD5 hash from content"
+    }
+
+    ads {
+        integer id PK
+        text content
+        date expiration_date
+        datetime created_at
+        text content_hash UK "MD5 hash from content"
+    }
+
+    jokes {
+        integer id PK
+        text content
+        integer funny_rating
+        datetime created_at
+        text content_hash UK "MD5 hash from content"
+    }
+    
