@@ -1,3 +1,17 @@
+"""
+# Important Implementation Details:
+# 1. Uses SQLite for persistent storage with UNIQUE constraints
+# 2. Implements three content types: News, Ads, Jokes
+# 3. Supports multiple output formats (TXT, JSON, XML, DB)
+# 4. Handles batch processing from text files
+# 5. Includes input validation and error handling
+# 6. Uses content hashing to prevent duplicates
+# 7. Normalizes text input for consistency
+
+# Note: The script automatically generates word and letter count CSVs
+# after each content addition (see generate_words_csv and generate_letters_csv calls)
+"""
+
 from faker import Faker
 import random
 from pathlib import Path
